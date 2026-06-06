@@ -5,6 +5,7 @@ import cors from "cors";
 import noteRoutes from "./routes/noteRoutes.js";
 
 dotenv.config();
+console.log("Mongo URI:", process.env.MONGO_URI);
 
 const app = express();
 
